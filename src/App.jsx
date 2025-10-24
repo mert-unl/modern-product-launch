@@ -4,6 +4,9 @@ import Header from "./components/Header.jsx"
 import Hero from "./components/Hero.jsx"
 import Specs from "./components/Specs.jsx"
 import Trusted from "./components/Trusted.jsx"
+import Map from "./components/Map.jsx"
+import Footer from "./components/Footer.jsx"
+
 
 function App() {
   return (
@@ -14,6 +17,8 @@ function App() {
      <Benefits/>
      <BigPicture/>
      <Specs/>
+     <Map/>
+     <Footer/>
     </>
   )
 }

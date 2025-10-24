@@ -83,6 +83,8 @@ export default function Specs(){
                 </div>
 
             </div>
+
+              <SpecBottom/>
         </div>
     )
 }
@@ -112,4 +114,24 @@ function SpecDot({check,text}){
         <p className="text-black text-lg">{text}</p>
     </div>
     )
+}
+
+
+function SpecBottom(){
+      
+    return(
+        <div className="flex flex-row gap-6 mt-10">
+           <img  className=" h-250" src="../public/assets/spec.png"/>
+           
+           <div className="flex flex-col  px-20 border-t-1 border-gray-300">
+
+            <p className="text-5xl py-20 mt-40 font-medium">“I was skeptical, but Area has completely transformed the way I manage my business. The data visualizations are so clear and intuitive, and the platform is so easy to use. I can't imagine running my company without it.”</p>
+            <p className="text-2xl text-black py-2 font-medium">John Smith</p>
+            <p className="text-xl text-[var(--accent1)]">Head of Data</p>
+           </div>
+
+        </div>
+    )
+
+
 }
